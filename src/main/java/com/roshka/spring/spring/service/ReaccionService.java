@@ -22,5 +22,9 @@ public class ReaccionService {
         return reaccionRepository.findById(id);
     }
 
+    public Reaccion save(Reaccion reaccion) {
+        return reaccionRepository.save(reaccion);
+    }
+
 
 }
